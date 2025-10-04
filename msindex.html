@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="MacSpenser Investment helps individuals and businesses grow their wealth through smart and secure investment opportunities.">
+  <title>MacSpenser Investment</title>
+
+  <style>
+    body {
+      background-image: url('1001035228.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    h1, h2 {
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    p {
+      background-color: rgba(0,0,0,0.5);
+      display: inline-block;
+      padding: 10px;
+      border-radius: 5px;
+      max-width: 800px;
+    }
+
+    table {
+      margin: 30px auto;
+      background-color: rgba(0,0,0,0.5);
+      border-collapse: collapse;
+      width: 80%;
+    }
+
+    th, td {
+      border: 1px solid white;
+      padding: 10px;
+    }
+
+    a {
+      color: lightblue;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>MACSPENSER INVESTMENT</h1>
+
+  <p>
+    Hello! I am <strong>Spenser Mwangi Muchoki</strong>, CEO and Founder of MacSpenser Investment.
+    I am deeply committed to serving and uplifting the community, creating opportunities, and making a positive impact on people's lives.
+  </p>
+
+  <h2>About Me</h2>
+  <p>
+    I’m the founder of MacSpenser Investment, a community-driven initiative that connects people with meaningful job opportunities and supports the less fortunate. Our goal is to empower individuals and uplift the community by creating pathways to economic growth and social impact.
+  </p>
+
+  <h2>Follow Me</h2>
+  <ul style="list-style: none; padding: 0;">
+    <li><a href="https://www.facebook.com" target="_blank">Facebook: Spenser Mwangi Muchoki</a></li>
+    <li><a href="https://www.instagram.com" target="_blank">Instagram: Spensermac</a></li>
+    <li><a href="https://www.tiktok.com" target="_blank">TikTok: Mac Spenser</a></li>
+  </ul>
+
+  <table>
+    <tr>
+      <th>Mission</th>
+      <th>Vision</th>
+    </tr>
+    <tr>
+      <td>To empower the community by connecting people with meaningful job opportunities, supporting the less fortunate, and fostering social and economic growth.</td>
+      <td>To create a thriving community where every individual has access to opportunities, support, and resources to achieve their full potential — fostering a society built on empowerment, equality, and growth.</td>
+    </tr>
+    <tr>
+      <td><strong>Connection Is Power</strong></td>
+      <td><strong>Independence Is Power</strong></td>
+    </tr>
+  </table>
+
+  <button onclick="mpesaPay()">Contribute via M-PESA</button>
+
+  <script>
+    function mpesaPay() {
+      const amount = prompt("Enter the amount you wish to contribute:");
+      if (amount && !isNaN(amount)) {
+        alert("Thank you! Please send KES " + amount + " to Till Number 8191904 via M-PESA.");
+      } else if (amount !== null) {
+        alert("Please enter a valid amount.");
+      }
+    }
+  </script>
+</body>
+</html>
